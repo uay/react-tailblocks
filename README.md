@@ -6,6 +6,10 @@ Implement [mertJF](https://github.com/mertjf) ready-to-use Tailwind CSS blocks a
 
 Please check it out: [mertJF/tailblocks](https://github.com/mertJF/tailblocks)
 
+## Prerequisites
+
+This project needs [tailwind](https://tailwindcss.com/) and [tailwindcss-dark-mode](https://github.com/ChanceArthur/tailwindcss-dark-mode) to be installed.
+
 ## Installation
 
 TODO

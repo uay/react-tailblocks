@@ -53,6 +53,7 @@
     ]
   },
   "devDependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "tailwindcss-dark-mode": "^1.1.6"
   }
 }
