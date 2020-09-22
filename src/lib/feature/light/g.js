@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightFeatureG(props) {
   return (
@@ -129,7 +129,8 @@ function LightFeatureG(props) {
             </div>
           </div>
         </div>
-        <button className={`flex mx-auto mt-16 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+        <button
+          className={`flex mx-auto mt-16 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
           Button
         </button>
       </div>
@@ -138,11 +139,11 @@ function LightFeatureG(props) {
 }
 
 LightFeatureG.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightFeatureG.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightFeatureG;

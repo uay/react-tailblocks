@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkFeatureA(props) {
   return (
@@ -11,7 +11,8 @@ function DarkFeatureA(props) {
         </h1>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex">
-            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-4 flex-shrink-0`}>
+            <div
+              className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-4 flex-shrink-0`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -51,7 +52,8 @@ function DarkFeatureA(props) {
             </div>
           </div>
           <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex">
-            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-4 flex-shrink-0`}>
+            <div
+              className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-4 flex-shrink-0`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -93,7 +95,8 @@ function DarkFeatureA(props) {
             </div>
           </div>
           <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex">
-            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-4 flex-shrink-0`}>
+            <div
+              className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-4 flex-shrink-0`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -140,11 +143,11 @@ function DarkFeatureA(props) {
 }
 
 DarkFeatureA.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkFeatureA.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkFeatureA;

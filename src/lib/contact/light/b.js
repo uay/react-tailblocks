@@ -1,16 +1,17 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightContactB(props) {
   return (
     <section className="text-gray-700 body-font relative">
       <div className="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div
+          className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
             className="absolute inset-0"
-            style={{ filter: "grayscale(1) contrast(1.2) opacity(.4)" }}
+            style={{ filter: 'grayscale(1) contrast(1.2) opacity(.4)' }}
             frameBorder="0"
             title="map"
             marginHeight="0"
@@ -90,7 +91,8 @@ function LightContactB(props) {
               className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
             ></textarea>
           </div>
-          <button className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+          <button
+            className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
             Button
           </button>
           <p className="text-xs text-gray-500 mt-3">
@@ -104,11 +106,11 @@ function LightContactB(props) {
 }
 
 LightContactB.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightContactB.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightContactB;

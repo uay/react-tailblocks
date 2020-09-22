@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightHeaderB(props) {
   return (
@@ -20,13 +20,15 @@ function LightHeaderB(props) {
           </svg>
           <span className="ml-3 text-xl">tailblocks</span>
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <nav
+          className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
           <a href className="mr-5 hover:text-gray-900">First Link</a>
           <a href className="mr-5 hover:text-gray-900">Second Link</a>
           <a href className="mr-5 hover:text-gray-900">Third Link</a>
           <a href className="mr-5 hover:text-gray-900">Fourth Link</a>
         </nav>
-        <button className="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">
+        <button
+          className="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">
           Button
           <svg
             fill="none"
@@ -46,11 +48,11 @@ function LightHeaderB(props) {
 }
 
 LightHeaderB.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightHeaderB.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightHeaderB;

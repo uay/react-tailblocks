@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkHeaderD(props) {
   return (
@@ -26,7 +26,8 @@ function DarkHeaderD(props) {
           <a href className="mr-5 hover:text-white">Third Link</a>
           <a href className="mr-5 hover:text-white">Fourth Link</a>
         </nav>
-        <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+        <button
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           Button
           <svg
             fill="none"
@@ -46,11 +47,11 @@ function DarkHeaderD(props) {
 }
 
 DarkHeaderD.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkHeaderD.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkHeaderD;

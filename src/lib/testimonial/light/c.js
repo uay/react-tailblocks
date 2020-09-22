@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightTestimonialC(props) {
   return (
@@ -73,11 +73,11 @@ function LightTestimonialC(props) {
 }
 
 LightTestimonialC.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightTestimonialC.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightTestimonialC;

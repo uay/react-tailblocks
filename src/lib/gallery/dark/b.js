@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkGalleryB(props) {
   return (
@@ -106,11 +106,11 @@ function DarkGalleryB(props) {
 }
 
 DarkGalleryB.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkGalleryB.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkGalleryB;

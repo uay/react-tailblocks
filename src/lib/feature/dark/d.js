@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkFeatureD(props) {
   return (
@@ -8,7 +8,8 @@ function DarkFeatureD(props) {
         <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2 md:w-full">
             <div className="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
-              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 flex-shrink-0`}>
+              <div
+                className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 flex-shrink-0`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -48,7 +49,8 @@ function DarkFeatureD(props) {
           </div>
           <div className="p-4 lg:w-1/2 md:w-full">
             <div className="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
-              <div className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 flex-shrink-0`}>
+              <div
+                className={`w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 flex-shrink-0`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -94,11 +96,11 @@ function DarkFeatureD(props) {
 }
 
 DarkFeatureD.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkFeatureD.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkFeatureD;

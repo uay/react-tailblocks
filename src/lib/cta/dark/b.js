@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkCTAB(props) {
   return (
@@ -46,7 +46,8 @@ function DarkCTAB(props) {
               className={`w-full bg-gray-700 rounded border border-gray-600 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />
           </div>
-          <button className={`text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+          <button
+            className={`text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
             Button
           </button>
           <p className="text-xs text-gray-600 mt-3">
@@ -59,11 +60,11 @@ function DarkCTAB(props) {
 }
 
 DarkCTAB.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkCTAB.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkCTAB;

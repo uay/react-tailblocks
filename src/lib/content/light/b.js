@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightContentB(props) {
   return (
@@ -103,11 +103,11 @@ function LightContentB(props) {
 }
 
 LightContentB.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightContentB.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightContentB;

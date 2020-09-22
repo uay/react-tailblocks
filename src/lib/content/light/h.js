@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightContentH(props) {
   return (
@@ -121,11 +121,11 @@ function LightContentH(props) {
 }
 
 LightContentH.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightContentH.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightContentH;

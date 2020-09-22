@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkStepA(props) {
   return (
@@ -11,7 +11,8 @@ function DarkStepA(props) {
               <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                 <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
               </div>
-              <div className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
+              <div
+                className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -38,7 +39,8 @@ function DarkStepA(props) {
               <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                 <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
               </div>
-              <div className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
+              <div
+                className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -65,7 +67,8 @@ function DarkStepA(props) {
               <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                 <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
               </div>
-              <div className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
+              <div
+                className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -93,7 +96,8 @@ function DarkStepA(props) {
               <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                 <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
               </div>
-              <div className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
+              <div
+                className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -118,7 +122,8 @@ function DarkStepA(props) {
               </div>
             </div>
             <div className="flex relative">
-              <div className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
+              <div
+                className={`flex-shrink-0 w-10 h-10 rounded-full bg-${props.theme}-500 inline-flex items-center justify-center text-white relative z-10`}>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -155,11 +160,11 @@ function DarkStepA(props) {
 }
 
 DarkStepA.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkStepA.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkStepA;

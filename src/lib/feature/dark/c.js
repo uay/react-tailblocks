@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkFeatureC(props) {
   return (
@@ -14,7 +14,8 @@ function DarkFeatureC(props) {
         </div>
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
           <div className="flex flex-col mb-10 lg:items-start items-center">
-            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-5`}>
+            <div
+              className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-5`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -52,7 +53,8 @@ function DarkFeatureC(props) {
             </div>
           </div>
           <div className="flex flex-col mb-10 lg:items-start items-center">
-            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-5`}>
+            <div
+              className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-5`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -92,7 +94,8 @@ function DarkFeatureC(props) {
             </div>
           </div>
           <div className="flex flex-col mb-10 lg:items-start items-center">
-            <div className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-5`}>
+            <div
+              className={`w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-${props.theme}-400 mb-5`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -137,11 +140,11 @@ function DarkFeatureC(props) {
 }
 
 DarkFeatureC.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkFeatureC.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkFeatureC;

@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from  "prop-types";
+import PropTypes from 'prop-types';
 
 function DarkBlogA(props) {
   return (
@@ -25,7 +25,8 @@ function DarkBlogA(props) {
                   microdosing tousled waistcoat.
                 </p>
                 <div className="flex items-center flex-wrap ">
-                  <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
+                  <a href
+                     className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"
@@ -40,7 +41,8 @@ function DarkBlogA(props) {
                       <path d="M12 5l7 7-7 7" />
                     </svg>
                   </a>
-                  <span className="text-gray-600 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                  <span
+                    className="text-gray-600 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
@@ -65,7 +67,8 @@ function DarkBlogA(props) {
                       strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
                     </svg>
                     6
                   </span>
@@ -92,7 +95,8 @@ function DarkBlogA(props) {
                   microdosing tousled waistcoat.
                 </p>
                 <div className="flex items-center flex-wrap">
-                  <a href className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
+                  <a href
+                     className={`text-${props.theme}-500 inline-flex items-center md:mb-2 lg:mb-0`}>
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"
@@ -107,7 +111,8 @@ function DarkBlogA(props) {
                       <path d="M12 5l7 7-7 7" />
                     </svg>
                   </a>
-                  <span className="text-gray-600 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                  <span
+                    className="text-gray-600 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
@@ -132,7 +137,8 @@ function DarkBlogA(props) {
                       strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
                     </svg>
                     6
                   </span>
@@ -177,7 +183,8 @@ function DarkBlogA(props) {
                       <path d="M12 5l7 7-7 7" />
                     </svg>
                   </a>
-                  <span className="text-gray-600 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                  <span
+                    className="text-gray-600 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
@@ -202,7 +209,8 @@ function DarkBlogA(props) {
                       strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
                     </svg>
                     6
                   </span>
@@ -212,16 +220,16 @@ function DarkBlogA(props) {
           </div>
         </div>
       </div>
-    </section>    
-  )
+    </section>
+  );
 }
 
 DarkBlogA.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkBlogA.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkBlogA;

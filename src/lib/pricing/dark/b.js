@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkPricingB(props) {
   return (
@@ -37,7 +37,8 @@ function DarkPricingB(props) {
           </div>
         </div>
         <div className="flex lg:w-3/4 w-full flex-wrap lg:border border-gray-700 rounded-lg">
-          <div className="lg:w-1/3 lg:mt-px w-full mb-10 lg:mb-0 border-2 border-gray-700 lg:border-none rounded-lg lg:rounded-none relative">
+          <div
+            className="lg:w-1/3 lg:mt-px w-full mb-10 lg:mb-0 border-2 border-gray-700 lg:border-none rounded-lg lg:rounded-none relative">
             <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
               <h3 className="tracking-widest">START</h3>
               <h2 className="text-5xl text-white font-medium leading-none mb-4 mt-2">
@@ -45,11 +46,13 @@ function DarkPricingB(props) {
               </h2>
               <span className="text-sm text-gray-500">Next 3 months</span>
             </div>
-            <p className="bg-gray-800 text-gray-500 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-700">
+            <p
+              className="bg-gray-800 text-gray-500 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-700">
               Schlitz single-origin
             </p>
             <p className="text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -64,7 +67,8 @@ function DarkPricingB(props) {
               </span>
             </p>
             <p className="bg-gray-800 text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -82,7 +86,8 @@ function DarkPricingB(props) {
               Feature
             </p>
             <p className="bg-gray-800 text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -149,7 +154,8 @@ function DarkPricingB(props) {
               </svg>
             </p>
             <div className="border-t border-gray-700 p-6 text-center rounded-bl-lg">
-              <button className={`flex items-center mt-auto text-white bg-${props.theme}-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+              <button
+                className={`flex items-center mt-auto text-white bg-${props.theme}-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-${props.theme}-600 rounded`}>
                 Button
                 <svg
                   fill="none"
@@ -168,8 +174,10 @@ function DarkPricingB(props) {
               </p>
             </div>
           </div>
-          <div className={`lg:w-1/3 lg:-mt-px w-full mb-10 lg:mb-0 border-2 rounded-lg border-${props.theme}-500 relative`}>
-            <span className={`bg-${props.theme}-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl`}>
+          <div
+            className={`lg:w-1/3 lg:-mt-px w-full mb-10 lg:mb-0 border-2 rounded-lg border-${props.theme}-500 relative`}>
+            <span
+              className={`bg-${props.theme}-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl`}>
               POPULAR
             </span>
             <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
@@ -181,11 +189,13 @@ function DarkPricingB(props) {
                 Charging $456 per year
               </span>
             </div>
-            <p className="bg-gray-800 text-gray-500 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-700">
+            <p
+              className="bg-gray-800 text-gray-500 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-700">
               Schlitz single-origin
             </p>
             <p className="text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -200,7 +210,8 @@ function DarkPricingB(props) {
               </span>
             </p>
             <p className="bg-gray-800 text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -218,7 +229,8 @@ function DarkPricingB(props) {
               Feature
             </p>
             <p className="bg-gray-800 text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -233,7 +245,8 @@ function DarkPricingB(props) {
               </span>
             </p>
             <p className="text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -287,7 +300,8 @@ function DarkPricingB(props) {
               </svg>
             </p>
             <div className="p-6 text-center border-t border-gray-700">
-              <button className={`flex items-center mt-auto text-white bg-${props.theme}-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+              <button
+                className={`flex items-center mt-auto text-white bg-${props.theme}-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-${props.theme}-600 rounded`}>
                 Button
                 <svg
                   fill="none"
@@ -316,11 +330,13 @@ function DarkPricingB(props) {
                 Charging $648 per year
               </span>
             </div>
-            <p className="bg-gray-800 text-gray-500 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-700">
+            <p
+              className="bg-gray-800 text-gray-500 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-700">
               Schlitz single-origin
             </p>
             <p className="text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -335,7 +351,8 @@ function DarkPricingB(props) {
               </span>
             </p>
             <p className="bg-gray-800 text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -353,7 +370,8 @@ function DarkPricingB(props) {
               Feature
             </p>
             <p className="bg-gray-800 text-gray-500 text-center h-12 flex items-center justify-center">
-              <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
+              <span
+                className="w-5 h-5 inline-flex items-center justify-center bg-gray-700 text-white rounded-full flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -420,7 +438,8 @@ function DarkPricingB(props) {
               </svg>
             </p>
             <div className="p-6 text-center border-t border-gray-700">
-              <button className={`flex items-center mt-auto text-white bg-${props.theme}-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+              <button
+                className={`flex items-center mt-auto text-white bg-${props.theme}-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-${props.theme}-600 rounded`}>
                 Button
                 <svg
                   fill="none"
@@ -446,11 +465,11 @@ function DarkPricingB(props) {
 }
 
 DarkPricingB.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkPricingB.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkPricingB;

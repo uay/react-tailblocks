@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightContactA(props) {
   return (
@@ -8,7 +8,7 @@ function LightContactA(props) {
         <iframe
           width="100%"
           height="100%"
-          style={{ filter: "grayscale(1) contrast(1.2) opacity(.4)" }}
+          style={{ filter: 'grayscale(1) contrast(1.2) opacity(.4)' }}
           frameBorder="0"
           marginHeight="0"
           marginWidth="0"
@@ -18,7 +18,8 @@ function LightContactA(props) {
         />
       </div>
       <div className="container px-5 py-24 mx-auto flex">
-        <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
+        <div
+          className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
           <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
             Feedback
           </h2>
@@ -52,7 +53,8 @@ function LightContactA(props) {
               className={`w-full bg-white rounded border border-gray-300 focus:border-${props.theme}-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out`}
             ></textarea>
           </div>
-          <button className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+          <button
+            className={`text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
             Button
           </button>
           <p className="text-xs text-gray-500 mt-3">
@@ -66,11 +68,11 @@ function LightContactA(props) {
 }
 
 LightContactA.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightContactA.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightContactA;

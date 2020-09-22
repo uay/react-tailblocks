@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from  "prop-types";
+import PropTypes from 'prop-types';
 
 function DarkBlogE(props) {
   return (
@@ -117,15 +117,15 @@ function DarkBlogE(props) {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 DarkBlogE.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkBlogE.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkBlogE;

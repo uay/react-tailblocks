@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightGalleryB(props) {
   return (
@@ -106,11 +106,11 @@ function LightGalleryB(props) {
 }
 
 LightGalleryB.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightGalleryB.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightGalleryB;

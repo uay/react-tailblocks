@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkContentF(props) {
   return (
@@ -40,7 +40,8 @@ function DarkContentF(props) {
                 </p>
               </div>
             </div>
-            <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+            <div
+              className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p className="leading-relaxed text-lg mb-4">
                 Meggings portland fingerstache lyft, post-ironic fixie man bun
                 banh mi umami everyday carry hexagon locavore direct trade art
@@ -75,11 +76,11 @@ function DarkContentF(props) {
 }
 
 DarkContentF.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkContentF.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkContentF;

@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkStatisticC(props) {
   return (
@@ -70,7 +70,8 @@ function DarkStatisticC(props) {
                 viewBox="0 0 24 24"
               >
                 <path d="M3 18v-6a9 9 0 0118 0v6" />
-                <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z" />
+                <path
+                  d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z" />
               </svg>
               <h2 className="title-font font-medium text-3xl text-white">74</h2>
               <p className="leading-relaxed">Files</p>
@@ -100,11 +101,11 @@ function DarkStatisticC(props) {
 }
 
 DarkStatisticC.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkStatisticC.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkStatisticC;

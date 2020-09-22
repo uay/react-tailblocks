@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkStepC(props) {
   return (
@@ -9,11 +9,13 @@ function DarkStepC(props) {
           <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
             <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
           </div>
-          <div className={`flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-${props.theme}-500 text-white relative z-10 title-font font-medium text-sm`}>
+          <div
+            className={`flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-${props.theme}-500 text-white relative z-10 title-font font-medium text-sm`}>
             1
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className={`flex-shrink-0 w-24 h-24 bg-gray-800 text-${props.theme}-400 rounded-full inline-flex items-center justify-center`}>
+            <div
+              className={`flex-shrink-0 w-24 h-24 bg-gray-800 text-${props.theme}-400 rounded-full inline-flex items-center justify-center`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -41,11 +43,13 @@ function DarkStepC(props) {
           <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
             <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
           </div>
-          <div className={`flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-${props.theme}-500 text-white relative z-10 title-font font-medium text-sm`}>
+          <div
+            className={`flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-${props.theme}-500 text-white relative z-10 title-font font-medium text-sm`}>
             2
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className={`flex-shrink-0 w-24 h-24 bg-gray-800 text-${props.theme}-400 rounded-full inline-flex items-center justify-center`}>
+            <div
+              className={`flex-shrink-0 w-24 h-24 bg-gray-800 text-${props.theme}-400 rounded-full inline-flex items-center justify-center`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -73,11 +77,13 @@ function DarkStepC(props) {
           <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
             <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
           </div>
-          <div className={`flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-${props.theme}-500 text-white relative z-10 title-font font-medium text-sm`}>
+          <div
+            className={`flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-${props.theme}-500 text-white relative z-10 title-font font-medium text-sm`}>
             3
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className={`flex-shrink-0 w-24 h-24 bg-gray-800 text-${props.theme}-400 rounded-full inline-flex items-center justify-center`}>
+            <div
+              className={`flex-shrink-0 w-24 h-24 bg-gray-800 text-${props.theme}-400 rounded-full inline-flex items-center justify-center`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -106,11 +112,13 @@ function DarkStepC(props) {
           <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
             <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
           </div>
-          <div className={`flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-${props.theme}-500 text-white relative z-10 title-font font-medium text-sm`}>
+          <div
+            className={`flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-${props.theme}-500 text-white relative z-10 title-font font-medium text-sm`}>
             4
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className={`flex-shrink-0 w-24 h-24 bg-gray-800 text-${props.theme}-400 rounded-full inline-flex items-center justify-center`}>
+            <div
+              className={`flex-shrink-0 w-24 h-24 bg-gray-800 text-${props.theme}-400 rounded-full inline-flex items-center justify-center`}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -141,11 +149,11 @@ function DarkStepC(props) {
 }
 
 DarkStepC.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkStepC.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkStepC;

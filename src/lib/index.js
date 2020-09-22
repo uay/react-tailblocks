@@ -159,14 +159,14 @@ import DarkTestimonialA from './testimonial/dark/a';
 import DarkTestimonialB from './testimonial/dark/b';
 import DarkTestimonialC from './testimonial/dark/c';
 
-export default function getBlock({theme = 'indigo', darkMode = false}) {
+export default function getBlock({ theme = 'indigo', darkMode = false }) {
   return {
     Blog: {
       BlogA: darkMode ? <DarkBlogA theme={theme} /> : <LightBlogA theme={theme} />,
       BlogB: darkMode ? <DarkBlogB theme={theme} /> : <LightBlogB theme={theme} />,
       BlogC: darkMode ? <DarkBlogC theme={theme} /> : <LightBlogC theme={theme} />,
       BlogD: darkMode ? <DarkBlogD theme={theme} /> : <LightBlogD theme={theme} />,
-      BlogE: darkMode ? <DarkBlogE theme={theme} /> : <LightBlogE theme={theme} />
+      BlogE: darkMode ? <DarkBlogE theme={theme} /> : <LightBlogE theme={theme} />,
     },
     Contact: {
       ContactA: darkMode ? <DarkContactA theme={theme} /> : <LightContactA theme={theme} />,
@@ -181,18 +181,18 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       ContentE: darkMode ? <DarkContentE theme={theme} /> : <LightContentE theme={theme} />,
       ContentF: darkMode ? <DarkContentF theme={theme} /> : <LightContentF theme={theme} />,
       ContentG: darkMode ? <DarkContentG theme={theme} /> : <LightContentG theme={theme} />,
-      ContentH: darkMode ? <DarkContentH theme={theme} /> : <LightContentH theme={theme} />
+      ContentH: darkMode ? <DarkContentH theme={theme} /> : <LightContentH theme={theme} />,
     },
     CTA: {
       CTAA: darkMode ? <DarkCTAA theme={theme} /> : <LightCTAA theme={theme} />,
       CTAB: darkMode ? <DarkCTAB theme={theme} /> : <LightCTAB theme={theme} />,
       CTAC: darkMode ? <DarkCTAC theme={theme} /> : <LightCTAC theme={theme} />,
-      CTAD: darkMode ? <DarkCTAD theme={theme} /> : <LightCTAD theme={theme} />
+      CTAD: darkMode ? <DarkCTAD theme={theme} /> : <LightCTAD theme={theme} />,
     },
     Ecommerce: {
       EcommerceA: darkMode ? <DarkEcommerceA theme={theme} /> : <LightEcommerceA theme={theme} />,
       EcommerceB: darkMode ? <DarkEcommerceB theme={theme} /> : <LightEcommerceB theme={theme} />,
-      EcommerceC: darkMode ? <DarkEcommerceC theme={theme} /> : <LightEcommerceC theme={theme} />
+      EcommerceC: darkMode ? <DarkEcommerceC theme={theme} /> : <LightEcommerceC theme={theme} />,
     },
     Feature: {
       FeatureA: darkMode ? <DarkFeatureA theme={theme} /> : <LightFeatureA theme={theme} />,
@@ -202,25 +202,25 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       FeatureE: darkMode ? <DarkFeatureE theme={theme} /> : <LightFeatureE theme={theme} />,
       FeatureF: darkMode ? <DarkFeatureF theme={theme} /> : <LightFeatureF theme={theme} />,
       FeatureG: darkMode ? <DarkFeatureG theme={theme} /> : <LightFeatureG theme={theme} />,
-      FeatureH: darkMode ? <DarkFeatureH theme={theme} /> : <LightFeatureH theme={theme} />
+      FeatureH: darkMode ? <DarkFeatureH theme={theme} /> : <LightFeatureH theme={theme} />,
     },
     Footer: {
       FooterA: darkMode ? <DarkFooterA theme={theme} /> : <LightFooterA theme={theme} />,
       FooterB: darkMode ? <DarkFooterB theme={theme} /> : <LightFooterB theme={theme} />,
       FooterC: darkMode ? <DarkFooterC theme={theme} /> : <LightFooterC theme={theme} />,
       FooterD: darkMode ? <DarkFooterD theme={theme} /> : <LightFooterD theme={theme} />,
-      FooterE: darkMode ? <DarkFooterE theme={theme} /> : <LightFooterE theme={theme} />
+      FooterE: darkMode ? <DarkFooterE theme={theme} /> : <LightFooterE theme={theme} />,
     },
     Gallery: {
       GalleryA: darkMode ? <DarkGalleryA theme={theme} /> : <LightGalleryA theme={theme} />,
       GalleryB: darkMode ? <DarkGalleryB theme={theme} /> : <LightGalleryB theme={theme} />,
-      GalleryC: darkMode ? <DarkGalleryC theme={theme} /> : <LightGalleryC theme={theme} />
+      GalleryC: darkMode ? <DarkGalleryC theme={theme} /> : <LightGalleryC theme={theme} />,
     },
     Header: {
       HeaderA: darkMode ? <DarkHeaderA theme={theme} /> : <LightHeaderA theme={theme} />,
       HeaderB: darkMode ? <DarkHeaderB theme={theme} /> : <LightHeaderB theme={theme} />,
       HeaderC: darkMode ? <DarkHeaderC theme={theme} /> : <LightHeaderC theme={theme} />,
-      HeaderD: darkMode ? <DarkHeaderD theme={theme} /> : <LightHeaderD theme={theme} />
+      HeaderD: darkMode ? <DarkHeaderD theme={theme} /> : <LightHeaderD theme={theme} />,
     },
     Hero: {
       HeroA: darkMode ? <DarkHeroA theme={theme} /> : <LightHeroA theme={theme} />,
@@ -228,33 +228,33 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       HeroC: darkMode ? <DarkHeroC theme={theme} /> : <LightHeroC theme={theme} />,
       HeroD: darkMode ? <DarkHeroD theme={theme} /> : <LightHeroD theme={theme} />,
       HeroE: darkMode ? <DarkHeroE theme={theme} /> : <LightHeroE theme={theme} />,
-      HeroF: darkMode ? <DarkHeroF theme={theme} /> : <LightHeroF theme={theme} />
+      HeroF: darkMode ? <DarkHeroF theme={theme} /> : <LightHeroF theme={theme} />,
     },
     Pricing: {
       PricingA: darkMode ? <DarkPricingA theme={theme} /> : <LightPricingA theme={theme} />,
       PricingB: darkMode ? <DarkPricingB theme={theme} /> : <LightPricingB theme={theme} />,
-      PricingC: darkMode ? <DarkPricingC theme={theme} /> : <LightPricingC theme={theme} />
+      PricingC: darkMode ? <DarkPricingC theme={theme} /> : <LightPricingC theme={theme} />,
     },
     Statistic: {
       StatisticA: darkMode ? <DarkStatisticA theme={theme} /> : <LightStatisticA theme={theme} />,
       StatisticB: darkMode ? <DarkStatisticB theme={theme} /> : <LightStatisticB theme={theme} />,
-      StatisticC: darkMode ? <DarkStatisticC theme={theme} /> : <LightStatisticC theme={theme} />
+      StatisticC: darkMode ? <DarkStatisticC theme={theme} /> : <LightStatisticC theme={theme} />,
     },
     Step: {
       StepA: darkMode ? <DarkStepA theme={theme} /> : <LightStepA theme={theme} />,
       StepB: darkMode ? <DarkStepB theme={theme} /> : <LightStepB theme={theme} />,
-      StepC: darkMode ? <DarkStepC theme={theme} /> : <LightStepC theme={theme} />
+      StepC: darkMode ? <DarkStepC theme={theme} /> : <LightStepC theme={theme} />,
     },
     Team: {
       TeamA: darkMode ? <DarkTeamA theme={theme} /> : <LightTeamA theme={theme} />,
       TeamB: darkMode ? <DarkTeamB theme={theme} /> : <LightTeamB theme={theme} />,
-      TeamC: darkMode ? <DarkTeamC theme={theme} /> : <LightTeamC theme={theme} />
+      TeamC: darkMode ? <DarkTeamC theme={theme} /> : <LightTeamC theme={theme} />,
     },
     Testimonial: {
       TestimonialA: darkMode ? <DarkTestimonialA theme={theme} /> : <LightTestimonialA theme={theme} />,
       TestimonialB: darkMode ? <DarkTestimonialB theme={theme} /> : <LightTestimonialB theme={theme} />,
-      TestimonialC: darkMode ? <DarkTestimonialC theme={theme} /> : <LightTestimonialC theme={theme} />
-    }
-  }
+      TestimonialC: darkMode ? <DarkTestimonialC theme={theme} /> : <LightTestimonialC theme={theme} />,
+    },
+  };
 }
 

@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightFeatureH(props) {
   return (
@@ -22,7 +22,8 @@ function LightFeatureH(props) {
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -38,7 +39,8 @@ function LightFeatureH(props) {
                 First Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -54,7 +56,8 @@ function LightFeatureH(props) {
                 Second Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -70,7 +73,8 @@ function LightFeatureH(props) {
                 Third Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -86,7 +90,8 @@ function LightFeatureH(props) {
                 Fourth Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -109,7 +114,8 @@ function LightFeatureH(props) {
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -125,7 +131,8 @@ function LightFeatureH(props) {
                 First Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -141,7 +148,8 @@ function LightFeatureH(props) {
                 Second Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -157,7 +165,8 @@ function LightFeatureH(props) {
                 Third Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -173,7 +182,8 @@ function LightFeatureH(props) {
                 Fourth Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -196,7 +206,8 @@ function LightFeatureH(props) {
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -212,7 +223,8 @@ function LightFeatureH(props) {
                 First Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -228,7 +240,8 @@ function LightFeatureH(props) {
                 Second Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -244,7 +257,8 @@ function LightFeatureH(props) {
                 Third Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -260,7 +274,8 @@ function LightFeatureH(props) {
                 Fourth Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -283,7 +298,8 @@ function LightFeatureH(props) {
             </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -299,7 +315,8 @@ function LightFeatureH(props) {
                 First Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -315,7 +332,8 @@ function LightFeatureH(props) {
                 Second Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -331,7 +349,8 @@ function LightFeatureH(props) {
                 Third Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -347,7 +366,8 @@ function LightFeatureH(props) {
                 Fourth Link
               </a>
               <a href className="mb-2">
-                <span className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
+                <span
+                  className={`bg-${props.theme}-100 text-${props.theme}-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center`}>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -365,7 +385,8 @@ function LightFeatureH(props) {
             </nav>
           </div>
         </div>
-        <button className={`flex mx-auto mt-16 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+        <button
+          className={`flex mx-auto mt-16 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
           Button
         </button>
       </div>
@@ -374,11 +395,11 @@ function LightFeatureH(props) {
 }
 
 LightFeatureH.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightFeatureH.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightFeatureH;

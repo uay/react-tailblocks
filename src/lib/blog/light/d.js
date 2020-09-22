@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from  "prop-types";
+import PropTypes from 'prop-types';
 
 function LightBlogD(props) {
   return (
@@ -111,15 +111,15 @@ function LightBlogD(props) {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 LightBlogD.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightBlogD.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightBlogD;

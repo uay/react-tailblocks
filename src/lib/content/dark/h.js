@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkContentH(props) {
   return (
@@ -121,11 +121,11 @@ function DarkContentH(props) {
 }
 
 DarkContentH.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkContentH.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkContentH;

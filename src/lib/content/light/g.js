@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightContentG(props) {
   return (
@@ -21,7 +21,8 @@ function LightContentG(props) {
               Williamsburg occupy sustainable snackwave gochujang. Pinterest
               cornhole brunch, slow-carb neutra irony.
             </p>
-            <button className={`flex mx-auto mt-6 text-white bg-${props.theme}-500 border-0 py-2 px-5 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+            <button
+              className={`flex mx-auto mt-6 text-white bg-${props.theme}-500 border-0 py-2 px-5 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
               Button
             </button>
           </div>
@@ -40,7 +41,8 @@ function LightContentG(props) {
               Williamsburg occupy sustainable snackwave gochujang. Pinterest
               cornhole brunch, slow-carb neutra irony.
             </p>
-            <button className={`flex mx-auto mt-6 text-white bg-${props.theme}-500 border-0 py-2 px-5 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+            <button
+              className={`flex mx-auto mt-6 text-white bg-${props.theme}-500 border-0 py-2 px-5 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
               Button
             </button>
           </div>
@@ -51,11 +53,11 @@ function LightContentG(props) {
 }
 
 LightContentG.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightContentG.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightContentG;

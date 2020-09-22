@@ -1,11 +1,12 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightContentD(props) {
   return (
     <section className="text-gray-700 body-font">
       <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
-        <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-300">
+        <div
+          className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-300">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
             Pitchfork Kickstarter Taxidermy
           </h1>
@@ -67,11 +68,11 @@ function LightContentD(props) {
 }
 
 LightContentD.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightContentD.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightContentD;

@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightCTAC(props) {
   return (
@@ -44,7 +44,8 @@ function LightCTAC(props) {
               className={`w-full bg-gray-100 rounded border border-gray-300 focus:border-${props.theme}-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />
           </div>
-          <button className={`text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+          <button
+            className={`text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
             Button
           </button>
         </div>
@@ -54,11 +55,11 @@ function LightCTAC(props) {
 }
 
 LightCTAC.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightCTAC.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightCTAC;

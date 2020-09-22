@@ -1,12 +1,13 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function LightFeatureF(props) {
   return (
     <section className="text-gray-700 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+          <div
+            className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
             <svg
               fill="none"
               stroke="currentColor"
@@ -67,7 +68,8 @@ function LightFeatureF(props) {
               </svg>
             </a>
           </div>
-          <div className={`sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+          <div
+            className={`sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
             <svg
               fill="none"
               stroke="currentColor"
@@ -84,7 +86,8 @@ function LightFeatureF(props) {
           </div>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-          <div className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
+          <div
+            className={`sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 flex-shrink-0`}>
             <svg
               fill="none"
               stroke="currentColor"
@@ -122,7 +125,8 @@ function LightFeatureF(props) {
             </a>
           </div>
         </div>
-        <button className={`flex mx-auto mt-20 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
+        <button
+          className={`flex mx-auto mt-20 text-white bg-${props.theme}-500 border-0 py-2 px-8 focus:outline-none hover:bg-${props.theme}-600 rounded text-lg`}>
           Button
         </button>
       </div>
@@ -131,11 +135,11 @@ function LightFeatureF(props) {
 }
 
 LightFeatureF.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 LightFeatureF.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default LightFeatureF;

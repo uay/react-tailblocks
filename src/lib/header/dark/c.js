@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from  "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DarkHeaderC(props) {
   return (
@@ -11,7 +11,8 @@ function DarkHeaderC(props) {
           <a href className="mr-5 hover:text-white">Third Link</a>
           <a href className="hover:text-white">Fourth Link</a>
         </nav>
-        <a href className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+        <a href
+           className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -27,7 +28,8 @@ function DarkHeaderC(props) {
           <span className="ml-3 text-xl xl:block lg:hidden">tailblocks</span>
         </a>
         <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-          <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          <button
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
             Button
             <svg
               fill="none"
@@ -48,11 +50,11 @@ function DarkHeaderC(props) {
 }
 
 DarkHeaderC.defaultProps = {
-  theme: 'indigo'
+  theme: 'indigo',
 };
 
 DarkHeaderC.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkHeaderC;
