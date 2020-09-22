@@ -12,15 +12,32 @@ const onToggleClick = () => {
 
 
 const App = () => (
-  <main>
-    <button
-      className="bg-blue-100 dark:bg-blue-900 hover:bg-blue-300 dark-hover:bg-blue-600 text-blue-900 dark:text-blue-100 font-bold py-2 px-4 rounded uppercase m-auto block space-y-16"
-      style={{ margin: '100px auto' }}
-      onClick={onToggleClick}>
-      Toggle Dark Mode
-    </button>
+  <main className="dark:bg-blue-900">
+    <div className="bg-gray-200 dark:bg-gray-700">
+      <br />
+      <button
+        className="bg-blue-900 dark:bg-blue-100 hover:bg-blue-600 dark-hover:bg-blue-300 text-blue-100 dark:text-blue-900 font-bold py-2 px-4 rounded uppercase m-auto block"
+        onClick={onToggleClick}>
+        Toggle Dark Mode
+      </button>
+      <br />
+      <br />
+      <br />
+    </div>
+
+    {/* COMPONENTS */}
 
     <HeaderA />
+
+
+    {/* END */}
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
   </main>
 );
 
