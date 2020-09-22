@@ -210,4 +210,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,yarn,node,react
 
-.idea/workspace.xml
+src/tailwind.output.css
