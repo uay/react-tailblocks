@@ -209,3 +209,5 @@ $RECYCLE.BIN/
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,yarn,node,react
+
+.idea/workspace.xml
