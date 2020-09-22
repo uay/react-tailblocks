@@ -2,7 +2,6 @@
   "name": "react-tailblocks",
   "version": "0.1.0",
   "description": "Use mertJF's ready-to-use Tailwind CSS blocks as a reusable react library.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uay/react-tailblocks.git"
